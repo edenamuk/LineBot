@@ -9,6 +9,7 @@ namespace LineBot.Controllers
 {
     public class LineChatController : ApiController
     {
+        [Route("api/LineChat")]
         [HttpPost]
         public IHttpActionResult POST()
         {
